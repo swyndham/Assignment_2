@@ -189,9 +189,27 @@ footer {
     grid-row: 1 / span 2;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .selection-grid {
-        grid-template-columns: 1fr;
+        display: block;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .nav-buttons {
+        font-size: 30px;
+    }
+    .new-dino-grid {
+        display: block;
+    }
+    .research-grid {
+        display: block;
+    }
+    .facts-grid {
+        display: block;
+    }
+    p {
+        font-size: 20px;
     }
 }
 
